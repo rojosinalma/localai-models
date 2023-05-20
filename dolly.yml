@@ -6,9 +6,9 @@ description: |
     Dolly model
 config_file: |
     parameters:
-      model: ggml-model-q5_0
+      model: ggml-dolly-q5_0
     backend: dolly
 files:
-- filename: "ggml-model-q5_0"
+- filename: "ggml-dolly-q5_0"
   sha256: "42f67ed59bf16adcef0b5dc1282995044ecb92927c2cfe2e665ae2a61afbb778"
   uri: "https://huggingface.co/mverrilli/dolly-v2-7b-ggml/resolve/main/ggml-model-q5_0.bin"
