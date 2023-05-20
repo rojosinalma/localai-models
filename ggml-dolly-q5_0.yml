@@ -12,3 +12,10 @@ files:
 - filename: "ggml-dolly-q5_0"
   sha256: "42f67ed59bf16adcef0b5dc1282995044ecb92927c2cfe2e665ae2a61afbb778"
   uri: "https://huggingface.co/mverrilli/dolly-v2-7b-ggml/resolve/main/ggml-model-q5_0.bin"
+prompt_templates:
+- name: "ggml-dolly-q5_0-chat"
+  content: |
+    The prompt below is a question to answer, a task to complete, or a conversation to respond to; decide which and write an appropriate response.
+    ### Prompt:
+    {{.Input}}
+    ### Response:
