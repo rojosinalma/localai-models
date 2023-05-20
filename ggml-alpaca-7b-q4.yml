@@ -12,3 +12,10 @@ files:
 - filename: "ggml-alpaca-7b-q4"
   sha256: "3afd2a46443e3b822dc8681f8293d00ead3b71ad5b671af30668f60436da100e"
   uri: "https://huggingface.co/Catzy007/alpaca-7B-pth-ggml/resolve/main/ggml-alpaca-7b-q4.bin"
+prompt_templates:
+- name: "ggml-alpaca-7b-q4"
+  content: |
+    The prompt below is a question to answer, a task to complete, or a conversation to respond to; decide which and write an appropriate response.
+    ### Prompt:
+    {{.Input}}
+    ### Response:
