@@ -7,7 +7,7 @@ description: |
 config_file: |
     parameters:
       model: ggml-alpaca-7b-q4
-    backend: dolly
+    backend: alpaca
 files:
 - filename: "ggml-alpaca-7b-q4"
   sha256: "3afd2a46443e3b822dc8681f8293d00ead3b71ad5b671af30668f60436da100e"
