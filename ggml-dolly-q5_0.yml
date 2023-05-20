@@ -1,4 +1,4 @@
-name: "dolly-q5"
+name: "ggml-dolly-q5_0"
 license: "Apache 2.0"
 urls:
 - https://huggingface.co/mverrilli/dolly-v2-7b-ggml
