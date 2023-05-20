@@ -1,0 +1,14 @@
+name: "alpaca-7b"
+license: "Apache 2.0"
+urls:
+- https://huggingface.co/Catzy007/alpaca-7B-pth-ggml/
+description: |
+    Alpaca Model
+config_file: |
+    parameters:
+      model: ggml-alpaca-7b-q4
+    backend: dolly
+files:
+- filename: "ggml-alpaca-7b-q4"
+  sha256: "3afd2a46443e3b822dc8681f8293d00ead3b71ad5b671af30668f60436da100e"
+  uri: "https://huggingface.co/Catzy007/alpaca-7B-pth-ggml/resolve/main/ggml-alpaca-7b-q4.bin"
